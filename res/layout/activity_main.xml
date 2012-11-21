@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan" />
+
+    <Button
+        android:id="@+id/PasswordUnprotected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Unprotected networks" />
+
+    <Button
+        android:id="@+id/ConnectToStrongestUnprotected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to Strongest Unprotected Network" />
+
+  <ScrollView android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:layout_width="fill_parent"
+      android:layout_height="wrap_content" android:id="@+id/textStatus"
+      android:editable ="true"
+      android:text="WiFiDemo" />
+  </ScrollView>
+
+</LinearLayout>
